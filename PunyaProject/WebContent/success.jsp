@@ -4,10 +4,24 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Success page</title>
+<title>Success Page</title>
+
+<style type="text/css">
+.FetchData{text.color="Green"}
+
+</style>
 </head>
 <body bgcolor="silver">
-<table><tr>sucessfully added</tr> <br><br>
+
+
+<h1>Your Expenses Details has been Saved Successfully </h1>
+<a href ='retrieve.jsp'>Fetch data</a>
+
+
+
+
+
+<%-- <table><tr>sucessfully added</tr> <br><br>
 <tr>EXP_ID				=</tr> 
 <%=session.getAttribute("EXP_ID") %><br><br>
 
@@ -28,7 +42,7 @@
 
 <tr>COST				=</tr>
 <%=session.getAttribute("COST") %><br><br>
-</table>
+</table> --%>
 </body>
 </html>
 

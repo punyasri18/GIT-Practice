@@ -5,7 +5,13 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+
+import com.jwt.struts.form.UserRegisterForm;
+
 public class UserRegisterDAO {
+	
+	//List<UserRegisterDAO> list = null;
+	
 	public void insertData(String EXP_ID, String USER_ID, String EXP_RECORD_DATE,
 			String EXP_DATE, String EXP_CATEGORY_ID, String EXP_DESC,String COST ) throws Exception {
 		
@@ -46,5 +52,28 @@ public class UserRegisterDAO {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+//	try
+//	{
+//		PreparedStatement ps=con.prepareStatement("select * from struts_expenses");
+//		ResultSet rs=ps.executeQuery();
+//		while(rs.next()){
+//			 UserRegisterForm user=new  UserRegisterForm();
+//			 user.setEXP_ID(rs.getString(EXP_ID));
+//			 
+//			 System.out.println("hello.......")	; 
+//			 
+////			user.setName(rs.getString(2));
+////			user.setPassword(rs.getString(3));
+////			user.setEmail(rs.getString(4));
+//list.addAll((Collection<? extends UserRegisterDAO>) user);
+//		}
+//		con.close();
+//	}catch(Exception e){e.printStackTrace();}
+//	
+//	System.out.println("success");
+//	
 	}
+	
 }
+
+

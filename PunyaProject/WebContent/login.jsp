@@ -9,6 +9,7 @@
 <body bgcolor="silver">
 <br></br>
 <body>
+<h1> Daily Expenses Form </h1>
 <html:html>
     <div style="color:red">
     <html:errors />
